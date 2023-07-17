@@ -4,6 +4,7 @@ import Profile from '~/pages/Profile';
 import Upload from '~/pages/Upload';
 import Search from '~/pages/Search';
 import config from '~/config';
+import Live from '~/pages/Live/Live';
 
 //Layout
 import { HeaderOnly } from '~/layouts';
@@ -15,6 +16,7 @@ const publicRoutes = [
     { path: config.routes.profile, component: Profile },
     { path: config.routes.upload, component: Upload, layout: HeaderOnly },
     { path: config.routes.search, component: Search, layout: null },
+    { path: config.routes.live, component: Live },
 ];
 //Phải đăng nhập mới xem được
 const privateRoutes = [];

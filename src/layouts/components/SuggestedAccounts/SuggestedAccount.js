@@ -1,5 +1,5 @@
 import classNames from 'classnames/bind';
-import styles from './SuggestedAccounts.Module.scss';
+import styles from './SuggestedAccounts.module.scss';
 import PropTypes from 'prop-types';
 import AccountItem from './AccountItem';
 

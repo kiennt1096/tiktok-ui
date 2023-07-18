@@ -11,6 +11,10 @@
 .account-item {
     display: flex;
     padding: 8px;
+    cursor: pointer;
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.03);
+    }
 }
 
 .avatar {
@@ -33,7 +37,7 @@
 }
 
 .check {
-    margin-left: 4px;
+    margin-left: 6px;
     font-size: 1.4rem;
     color: #20d5ec;
 }
